@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap');
+
+body{
+    background-color: #130B33;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+}
+
+nav{
+    position: fixed;
+    background-color: black;
+    width: 100%;
+}
+
+.encabezado{
+    width: 440px;
+}
+
+.titulo{
+    position: absolute;
+    left: 100px;
+    top:20px;
+    z-index: 3;
+    width: 600px;
+    color: white;
+    font-size: 32px;
+    margin: 0;
+}
+
+.link{
+    position: relative;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    right: -800px;
+    top: -33px;
+    padding-right: 40px;
+}
+
+.subtitulo{
+    font-size: 32px;
+    color: white;
+}
+
+.container-description{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-articles{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 80px;
+}
+
+.container-text{
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+}
+
+.container-icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.container-imagen{
+    display: flex;
+    width: 50%;
+}
+
+.text-contact{
+    display: flex;
+    color: white;
+    font-size: 20px;
+    margin: 0;
+    margin-right: 10px;
+    align-items: center;
+}
+
+.container-contact{
+    display: flex;
+    padding-top: 20px;
+}
+
+.parrafo{
+    color: white;
+    font-size: 20px;
+}
+
+.foto{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+}
+
+.icon{
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+}
+
+.tyni-icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    color: #130B33;
+}
+
+.icon-contact{
+    margin-right: 20px;
+}
+
+.imagen{
+    width:100%;
+    height: auto;
+}
+
