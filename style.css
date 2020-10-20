@@ -8,8 +8,9 @@ body{
 
 nav{
     position: fixed;
-    background-color: black;
+    background-color: #010118;
     width: 100%;
+    box-shadow: 0 3px 10px #000;
 }
 
 .encabezado{
@@ -38,8 +39,9 @@ nav{
 }
 
 .subtitulo{
-    font-size: 32px;
+    font-size: 50px;
     color: white;
+    margin: 0;
 }
 
 .container-description{
@@ -51,12 +53,19 @@ nav{
     display: flex;
     justify-content: space-evenly;
     padding-top: 80px;
+    margin: 80px 150px;
 }
 
 .container-text{
     display: flex;
     flex-direction: column;
-    width: 1000px;
+    width: 40%;
+}
+
+.container-service{
+display: flex;
+flex-direction: column;
+width: 1100px;
 }
 
 .container-icon{
@@ -97,9 +106,10 @@ nav{
 }
 
 .icon{
-    width: 180px;
-    height: 180px;
+    width: 220px;
+    height: 220px;
     border-radius: 100%;
+    box-shadow: 5px 10px 8px #000000
 }
 
 .tyni-icon{
@@ -107,6 +117,7 @@ nav{
     height: 40px;
     border-radius: 100%;
     color: #130B33;
+    margin-right: 20px;
 }
 
 .icon-contact{
@@ -116,5 +127,7 @@ nav{
 .imagen{
     width:100%;
     height: auto;
+    margin-right: 20px;
+    box-shadow: 5px 10px 10px #000000
 }
 
